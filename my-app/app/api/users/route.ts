@@ -1,5 +1,5 @@
 ﻿import { NextRequest, NextResponse } from 'next/server';
-import db from '@/db';
+import db from '../../../db';
 
 export async function GET() {
     const stmt = db.prepare('SELECT * FROM users');
