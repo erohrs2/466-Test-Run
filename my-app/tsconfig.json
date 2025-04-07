@@ -12,5 +12,5 @@
     "jsx": "preserve",
     "incremental": true
   },
-  "include": ["app", "db.ts"]
+  "include": ["app", "db.ts", "types.d.ts"]
 }
